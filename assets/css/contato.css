@@ -1,0 +1,439 @@
+
+.no-padding {
+    float: left;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    min-height: 1px;
+}
+
+.no-padding {
+    padding: 0 !important;
+}
+
+.banner { 
+    background-image: url("../../assets/images/bg-header-mobile.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-banner {
+    font-size: 36px;
+    color: #FFF;
+    font-weight: 500;
+    text-align: center;
+    margin: 0;
+}
+
+.btn-enviar {
+    color: #fff !important;
+    padding: 12px 45px 12px 45px;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: uppercase;
+    border: none;
+    position: relative;
+    background: #349895;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin: 30px auto 0;
+    cursor: pointer;
+    transition: all 500ms ease-in-out;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+.btn-enviar:hover {
+    background: #4eb9b6;
+    transition: all 500ms ease;
+}
+
+.card .form-content {
+    padding: 10px 50px !important;
+}
+
+.bg-card-contato {    
+    overflow-y: auto;
+    height: 580px !important;
+    position: relative;
+    margin: 0.5rem 0 1rem 0;
+    background-color: #fff;
+    -webkit-transition: -webkit-box-shadow .25s;
+    transition: -webkit-box-shadow .25s;
+    transition: box-shadow .25s;
+    transition: box-shadow .25s, -webkit-box-shadow .25s;
+    border-radius: 2px;
+}
+
+.title-content {
+    margin: 10px 0 -5px;
+}
+
+.title-contato {
+    margin: 5px 10px 10px !important;
+    color: #21696e;
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.subtitle-info {
+    margin: 0 10px 0;
+    color: rgb(123, 123, 123);
+}
+
+.bg-info-contato {
+    width: 100%;
+    height: 580px;
+    max-height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat !important;
+    background-image: url(../../assets/images/bg-contato.svg);
+}
+
+
+.title-contato {
+    margin: 5px 10px 10px !important;
+    color: #21696e;
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.title-info-contato {  
+    margin: 5px 10px 10px !important;
+    color: #fff;
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.text-info-contato {
+    color: #fff;
+    margin: 0 15px;
+    position: relative;
+    top: -5px;
+    font-weight: 700;
+}
+
+.subtitle-info-contato { 
+    color: #fff !important;
+
+}
+
+.info-contato {
+    margin: 8% 10px 10px;
+    display: block;
+}
+
+.info-contato li {
+    margin: 20px 0 20px 0;
+}
+
+.text-info {
+    color: #fff;
+}
+
+.info-contato2 {
+    margin: 0 10px 0; 
+    display: inline-block;
+}
+
+.info-contato2 li {
+    margin: 20px 0 20px 0;
+}
+
+
+
+
+
+
+
+
+/*---------------------------------------------------------------------
+                    @Media Query - Responsividade
+-----------------------------------------------------------------------*/
+@media only screen and (max-width: 1280px) {
+    .card .form-content {
+        padding: 10px 30px !important;
+    }
+
+    .title-info-contato {
+        margin: 5px 10px 10px !important;
+        color: #fff;
+        font-size: 24px;
+        font-weight: 500;
+    }
+
+    .info-contato {
+        margin: 13% 0 10px;
+        display: block;
+    }
+
+}
+
+
+@media only screen and (max-width: 1204px) {
+    .bg-card-contato {
+        height: 540px !important;
+        position: relative;
+        margin: 0.5rem 0 1rem 0;
+    }
+
+    .bg-info-contato {
+        width: 100%;
+        height: 540px;
+        max-height: 100%;
+        background-size: cover;
+        background-repeat: no-repeat !important;
+    }
+
+
+    .title-contato {
+        margin: 5px 10px 20px !important;
+        color: #21696e;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .title-info-contato {
+        margin: 5px 10px 10px !important;
+        color: #fff;
+        font-size: 24px;
+        font-weight: 500;
+    }
+
+    .subtitle-info {
+        margin: 0 10px;
+        color: rgb(123, 123, 123);
+    }
+
+}
+
+
+@media only screen and (max-width: 1080px) {
+    .card .form-content {
+        padding: 10px 20px !important;
+    }
+
+    .title-info-contato {
+        margin: 5px 10px 10px !important;
+        color: #fff;
+        font-size: 22px;
+        font-weight: 500;
+    }
+    .info-contato {
+        margin: 13% 0 10px;
+        display: block;
+    }
+}
+
+
+@media only screen and (max-width: 992px) {
+    .card .form-content {
+        padding: 10px 20px !important;
+    }
+
+    .btn-enviar {
+        color: #fff !important;
+        padding: 10px 35px 10px 35px;
+        font-weight: 500;
+        font-size: 16px;
+        text-transform: uppercase;
+        border: none;
+        position: relative;
+        background: #349895;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        margin: 20px auto 10px;
+        cursor: pointer;
+        transition: all 500ms ease-in-out;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .bg-card-contato {
+        height: 502px !important;
+        position: relative;
+        margin: 0.5rem 0 1rem 0;
+        background-color: #fff;
+        -webkit-transition: -webkit-box-shadow .25s;
+        transition: -webkit-box-shadow .25s;
+        transition: box-shadow .25s;
+        transition: box-shadow .25s, -webkit-box-shadow .25s;
+        border-radius: 2px;
+    }
+
+    .bg-info-contato {
+        width: 100%;
+        height: 503px;
+        max-height: 100%;
+        background-size: cover;
+        background-repeat: no-repeat !important;
+    }
+
+    .title-info-contato {
+        margin: 5px 0 15px 10px !important;
+        color: #fff;
+        font-size: 22px;
+        font-weight: 500;
+    }
+
+    .info-contato {
+        margin: 13% 0 0;
+    }
+
+    .subtitle-info {
+        margin: -10px 10px -15px;
+        color: rgb(123, 123, 123);
+    }
+
+}
+
+
+@media only screen and (max-width: 780px) {
+    .card .form-content {
+        padding: 10px 15px !important;
+    }
+
+    .title-contato {
+        margin: 5px 10px 20px !important;
+        color: #21696e;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .title-info-contato {
+        margin: 5px 0 15px 6px !important;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .subtitle-info {
+        margin: -10px 10px;
+        color: rgb(123, 123, 123);
+        font-size: 12px;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .banner {
+        background-image: url(../../assets/images/bg-header-mobile.png);
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .title-banner {
+        font-size: 22px;
+        width: 50%;
+        color: #FFF;
+        font-weight: 500;
+        text-align: center;
+        margin: 0;
+    }
+
+    .bg-card-contato {
+        height: auto !important;
+        position: relative;
+        margin: 0.5rem 0 1rem 0;
+        background-color: #fff;
+        -webkit-transition: -webkit-box-shadow .25s;
+        transition: -webkit-box-shadow .25s;
+        transition: box-shadow .25s;
+        transition: box-shadow .25s, -webkit-box-shadow .25s;
+        border-radius: 2px;
+    }
+
+    .bg-info-contato {
+        width: 100%;
+        height: auto;
+        max-height: 100%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat !important;
+        background-image: url(../../assets/images/bg-contato.svg);
+    }
+
+    .card .form-content {
+        padding: 10px 15px !important;
+    }
+
+    .btn-enviar {
+        color: #fff !important;
+        padding: 11px 40px 11px 40px;
+        font-weight: 500;
+        font-size: 14px;
+        margin: 30px auto -10px;
+    } 
+    
+    .info-contato {
+    margin: 13% 0;
+    }
+
+    .title-info-contato {
+        margin: 15px 0 20px 10px !important;
+        color: #fff;
+        font-size: 22px;
+        font-weight: 500;
+    }
+
+    .title-margin {
+        margin: 15% auto 5% auto;
+    }
+
+    .info-contato2 {
+        margin: 0;
+        display: block;
+    }
+}
+
+
+@media only screen and (max-width: 360px) {
+    .info-contato {
+        margin: 17% 10px 0;
+    }  
+
+    .info-contato2 {
+        margin: 0 10px 0;
+    }
+
+    .title-info-contato {
+        margin: 15px 0 20px 8px !important;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .title-contato {
+        margin: 5px 10px 20px !important;
+        color: #21696e;
+        font-size: 20px;
+    }
+}
